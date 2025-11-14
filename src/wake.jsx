@@ -125,17 +125,17 @@ const WAKE_SEPARATIONS = {
       },
       MEDIUM: {
         mins: 2,
-        distance: 4,
+        distance: 5,
       },
       LIGHT: {
         mins: 2,
-        distance: 5,
+        distance: 6,
       },
     },
     MEDIUM: {
       LIGHT: {
         mins: 2,
-        distance: 6,
+        distance: 5,
       },
     },
   },
