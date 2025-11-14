@@ -175,6 +175,18 @@ const WAKE_SEPARATIONS = {
   },
 };
 
+const AC_TYPES = {
+    SUPER: ['A388'],
+    HEAVY: ['B747', 'B787', 'B777','B767', 'A350', 'A340', 'A330'],
+    MEDIUM: ['B737', 'A320', 'A321', 'A319', 'DH8C', 'C130', 'AS32' ],
+    LIGHT: ['PA28', 'PA31', 'C182', 'C500']
+};
+
+export const getRandomType = (category) => {
+    const wakeTypes = AC_TYPES[category]
+    return wakeTypes[Math.floor(Math.random()*wakeTypes.length)];
+};
+
 export const checkSeparation = (standard, leader, follower) => {
     if (leader in standard) {
         if (follower in standard[leader]) {
