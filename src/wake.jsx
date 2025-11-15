@@ -17,6 +17,10 @@ const WAKE_SEPARATIONS = {
       },
     },
     HEAVY: {
+      HEAVY: {
+        mins: 0,
+        distance: 4
+      },
       MEDIUM: {
         mins: 2,
         distance: 5,
