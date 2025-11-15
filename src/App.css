@@ -1,33 +1,7 @@
+@import "tailwindcss";
+
 body {
   background-color: #333333;
   color: white;
-
 }
 
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-  
-}
-
-.card {
-  padding: 2em;
-}
-
-button {
-  font-weight: bold;
-  transition: background-color 0.2s ease-in-out; 
-}
-
-
-.reveal {
-  background-color: #007d1d;
-  color: white;
-};
-
-.reset {
-  background-color: #007d1d;
-  color:#b3b3b3;
-}
