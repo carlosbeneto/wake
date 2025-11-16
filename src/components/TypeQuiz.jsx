@@ -49,7 +49,7 @@ const TYPES = [
   { d: "PA28", n: "Piper Cherokee", w: "L" },
   { d: "C182", n: "Cessna 182", w: "L" },
   { d: "BE20", n: "Beech 200 Super King Air", w: "L" },
-  { d: "SH36", n: "Short 360", w: "M" },
+  { d: "SH36", n: "Short 360", w: "M", isLight: true },
 ];
 const generateScenario = () => {
   const randomType = TYPES[Math.floor(Math.random() * TYPES.length)];
