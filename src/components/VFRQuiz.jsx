@@ -19,6 +19,7 @@ const POINTS = [
   { d: "TTL", location: "Tristan Island" },
   { d: "JNJ", location: "Janine Junction" },
   { d: "NNO", location: "Ningaloo" },
+  { d: "NNM", location: "Nunns Mill" },
 ];
 const generateScenario = () => {
   const randomPoint = POINTS[Math.floor(Math.random() * POINTS.length)];
